@@ -1,0 +1,48 @@
+Convolutional neural network (CNN) for medical image segmentation
+
+written by Kihyuk Sohn
+05/06/2014
+
+
+1. demo_seg.m 
+- single-layer convolutional network for image segmentation
+
+- demo_seg(opt, numhid, ws, maxiter, optvis, optmask, alpha)
+	e.g., >> demo_seg('lbfgs', 50, 16, 200, 0, 1, 0.1);
+
+- hyperparameters
+	opt 	: optimization method, 'sgd' or 'lbfgs'
+	numhid 	: number of conv. filters
+	ws 		: filter size
+	maxiter	: maximum training epochs
+	optvis 	: 1 to generate visualization results
+	optmask	: 1 to perform post-processing with mask
+	alpha 	: masking hyper parameter
+
+- TODO	:
+	- training with stochastic gradient descent (opt = 'sgd')
+	- pooling
+
+2. demo_seg_l2.m
+- 2-layer convolutional network for image segmentation
+
+- demo_seg_l2(opt, numhid, ws, numpen, ws2, maxiter, optvis, optmask, alpha)
+	e.g., >> demo_seg_l2('lbfgs', 16, 12, 40, 8, 200, 0, 1, 0.1);
+	
+- hyperparameters
+	opt 	: optimization method, 'sgd' or 'lbfgs'
+	numhid 	: number of conv. filters
+	ws 		: filter size at layer 1
+	numpen 	: number of 2nd layer conv. filters
+	ws2 	: filter size at layer 2
+	maxiter	: maximum training epochs
+	optvis 	: 1 to generate visualization results
+	optmask	: 1 to perform post-processing with mask
+	alpha 	: masking hyper parameter
+
+- TODO 	: 
+	- training with stochastic gradient descent (opt = 'sgd')
+	- pooling
+	
+	
+
