@@ -1,0 +1,15 @@
+AP: val = 0.942305 (std 0.03166), test = 0.93729 (std 0.0569717) (alpha = 0.1) (inference time per image = 1.2188, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC: val = 0.978346 (std 0.00749729), test = 0.977283 (std 0.0131483) (alpha = 0.1) (inference time per image = 1.2188, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP (orig): val = 0.914896 (std 0.0378286), test = 0.911149 (std 0.0638931) (alpha = 0.1) (inference time per image = 1.2188, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC (orig): val = 0.978248 (std 0.00751007), test = 0.97698 (std 0.0132458) (alpha = 0.1) (inference time per image = 1.2188, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+
+AP: val = 0.942305 (std 0.03166), test = 0.93729 (std 0.0569717) (alpha = 0.1) (inference time per image = 1.1641, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC: val = 0.978346 (std 0.00749729), test = 0.977283 (std 0.0131483) (alpha = 0.1) (inference time per image = 1.1641, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP (orig): val = 0.914896 (std 0.0378286), test = 0.911149 (std 0.0638931) (alpha = 0.1) (inference time per image = 1.1641, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC (orig): val = 0.978248 (std 0.00751007), test = 0.97698 (std 0.0132458) (alpha = 0.1) (inference time per image = 1.1641, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+
+AP: val = 0.919303 (std 0.101361), test = 0.928869 (std 0.0720314) (alpha = 0) (inference time per image = 1.1585, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC: val = 0.976888 (std 0.0119228), test = 0.979019 (std 0.0107574) (alpha = 0) (inference time per image = 1.1585, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP (orig): val = 0.915978 (std 0.104062), test = 0.926666 (std 0.0726455) (alpha = 0) (inference time per image = 1.1585, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+ACC (orig): val = 0.976946 (std 0.0120459), test = 0.978924 (std 0.0106382) (alpha = 0) (inference time per image = 1.1585, seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+

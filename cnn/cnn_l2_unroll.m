@@ -13,8 +13,27 @@ weights.hidpen = reshape(theta(idx+1:idx+params.ws2^2*params.numhid*params.numpe
     params.ws2, params.ws2, params.numhid, params.numpen);
 idx = idx + numel(weights.hidpen);
 
-weights.penbias = permute(theta(idx+1:idx+params.numpen), [2 3 1]);
-idx = idx + numel(weights.penbias);
+weights.penbias_bu = permute(theta(idx+1:idx+params.numpen), [2 3 1]);
+idx = idx + numel(weights.penbias_bu);
+
+
+%%%%%%%%%%%%%%%%
+weights.penhyper = reshape(theta(idx+1:idx+params.ws3^2*params.numpen*params.numhyper), ...
+    params.ws3, params.ws3, params.numpen, params.numhyper);
+idx = idx + numel(weights.penhyper);
+
+weights.hyperbias = permute(theta(idx+1:idx+params.numhyper), [2 3 1]);
+idx = idx + numel(weights.hyperbias);
+
+weights.hyperpen = reshape(theta(idx+1:idx+params.ws3^2*params.numhyper*params.numpen), ...
+    params.ws3, params.ws3, params.numhyper, params.numpen);
+idx = idx + numel(weights.hyperpen);
+
+weights.penbias_td = permute(theta(idx+1:idx+params.numpen), [2 3 1]);
+idx = idx + numel(weights.penbias_td);
+
+%%%%%%%%%%%%%%%%
+
 
 weights.penhid = reshape(theta(idx+1:idx+params.ws2^2*params.numpen*params.numhid), ...
     params.ws2, params.ws2, params.numpen, params.numhid);

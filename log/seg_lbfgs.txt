@@ -1,0 +1,4 @@
+AP: val = 0.929373, test = 0.943073 (seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP: val = 0.929373, test = 0.943073 (seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP: val = 0.929373, test = 0.943073 (seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
+AP: val = 0.929373, test = 0.943073 (seg_lbfgs_rs_70_cs_112_ws_12_nh_16_ws2_8_np_40_relu_itr_200)
